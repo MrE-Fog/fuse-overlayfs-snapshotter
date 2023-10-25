@@ -11,7 +11,7 @@ require (
 	github.com/containerd/continuity v0.3.0
 	github.com/coreos/go-systemd/v22 v22.5.0
 	github.com/sirupsen/logrus v1.9.0
-	google.golang.org/grpc v1.55.0
+	google.golang.org/grpc v1.56.3
 )
 
 require (
