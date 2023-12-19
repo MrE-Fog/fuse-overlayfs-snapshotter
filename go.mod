@@ -7,17 +7,18 @@ go 1.19
 // Expected to be fixed in v1.7.2 (https://github.com/containerd/containerd/pull/8507)
 
 require (
-	github.com/containerd/containerd v1.6.21
+	github.com/containerd/containerd v1.6.26
 	github.com/containerd/continuity v0.3.0
 	github.com/coreos/go-systemd/v22 v22.5.0
-	github.com/sirupsen/logrus v1.9.0
-	google.golang.org/grpc v1.55.0
+	github.com/sirupsen/logrus v1.9.3
+	google.golang.org/grpc v1.58.3
 )
 
 require (
 	github.com/Microsoft/go-winio v0.6.1 // indirect
-	github.com/Microsoft/hcsshim v0.9.9 // indirect
+	github.com/Microsoft/hcsshim v0.9.10 // indirect
 	github.com/containerd/cgroups v1.1.0 // indirect
+	github.com/containerd/log v0.1.0 // indirect
 	github.com/containerd/ttrpc v1.2.2 // indirect
 	github.com/containerd/typeurl v1.0.2 // indirect
 	github.com/docker/go-events v0.0.0-20190806004212-e31b211e4f1c // indirect
@@ -32,12 +33,12 @@ require (
 	go.etcd.io/bbolt v1.3.7 // indirect
 	go.opencensus.io v0.24.0 // indirect
 	golang.org/x/mod v0.10.0 // indirect
-	golang.org/x/net v0.10.0 // indirect
-	golang.org/x/sync v0.2.0 // indirect
-	golang.org/x/sys v0.8.0 // indirect
-	golang.org/x/text v0.9.0 // indirect
+	golang.org/x/net v0.17.0 // indirect
+	golang.org/x/sync v0.3.0 // indirect
+	golang.org/x/sys v0.13.0 // indirect
+	golang.org/x/text v0.13.0 // indirect
 	golang.org/x/tools v0.9.1 // indirect
-	google.golang.org/genproto v0.0.0-20230410155749-daa745c078e1 // indirect
-	google.golang.org/protobuf v1.30.0 // indirect
-	gotest.tools/v3 v3.4.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20230711160842-782d3b101e98 // indirect
+	google.golang.org/protobuf v1.31.0 // indirect
+	gotest.tools/v3 v3.5.0 // indirect
 )
